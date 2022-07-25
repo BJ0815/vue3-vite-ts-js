@@ -16,6 +16,12 @@ module.exports = {
       "extends": [
         "plugin:cypress/recommended"
       ]
+    },
+    {
+      files: ["*.html"],
+      rules: {
+        "vue/comment-directive": "off",
+      },
     }
   ]
 }
